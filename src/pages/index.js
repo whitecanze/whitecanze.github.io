@@ -169,7 +169,7 @@ export default class Home extends Component {
             <div>
             <Head>
                 <title>WhiteCanZE - Developer 🚀</title>
-                <link rel="icon" href="/mylogo4.png" />
+                <link rel="icon" href="/mylogo4.webp" />
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"/>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossOrigin="anonymous" />
             
@@ -182,7 +182,7 @@ export default class Home extends Component {
                     <nav className = "my-nav" id="mynav" >
                         <div className="box-content-nav">
                             <div className="mylogo">
-                                <img loading="lazy" src="/mylogo4.png" alt="my logo"></img>
+                                <img loading="lazy" src="/mylogo4.webp" alt="my logo"></img>
                                 <h1 id="mytext">WhiteCanZE</h1>
                             </div>
                             <div className="my-list-box">
@@ -223,13 +223,13 @@ export default class Home extends Component {
                                 view resume
                             </a>
                         </div>
-                        <img className="header-image" src="/new-img3.png" alt="header-image" />
+                        <img className="header-image" src="/new-img3.webp" alt="header-image" />
                         <div className="modal fade" id="resume-image" tabIndex="-1" aria-labelledby="My resume image" aria-hidden="true">
                             <div className="modal-dialog modal-fullscreen">
                                 <div className="modal-content">
                                     <div className="modal-body">
                                         <div className="Myresume">
-                                            <img loading="lazy" src="/my-resume-en.jpg" alt="My resume image" />
+                                            <img loading="lazy" src="/my-resume-en.webp" alt="My resume image" />
                                         </div>
                                     </div>
                                     <div className="modal-footer">
@@ -262,7 +262,7 @@ export default class Home extends Component {
                             </Link>
                         </div>
                         <div className="aboutme-img">
-                            <img loading="lazy" src="/new-img1.png" alt=""/>
+                            <img loading="lazy" src="/new-img1.webp" alt=""/>
                         </div>
                     </div>
                     <div className="myskills" ref={this.myskill} id="skills">
@@ -284,7 +284,7 @@ export default class Home extends Component {
                                 <i className="devicon-django-plain colored drop-shadow"></i>
                             </div>
                             <div className="card-skill">
-                                <img className="drop-shadow" src="/flask.png" alt="flask-icon" width="80px"/>
+                                <img className="drop-shadow" src="/flask.webp" alt="flask-icon" width="80px"/>
                             </div>
                             <div className="card-skill">
                                 <i className="devicon-csharp-plain colored drop-shadow"></i>
@@ -378,7 +378,7 @@ export default class Home extends Component {
                             <div className="modal-dialog modal-fullscreen ">
                                 <div className="modal-content">
                                     <div className="modal-body">
-                                        <img loading="lazy" src="/lineqrcode.jpg" alt="@benjaminiza"/>
+                                        <img loading="lazy" src="/lineqrcode.webp" alt="@benjaminiza"/>
                                         <h2>ID : benjaminiza</h2>
                                     </div>
                                     <div className="modal-footer">
