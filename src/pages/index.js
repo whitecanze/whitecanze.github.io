@@ -219,25 +219,12 @@ export default class Home extends Component {
                             <a className="my-cus-btn1" onClick={() => {this.mycontact ? this.scroll(this.mycontact) : pass}}>
                                 Contact me
                             </a>
-                            <a className="my-cus-btn2" data-toggle="modal" data-target="#resume-image">
+                            <a className="my-cus-btn2" href="/my-resume-en.webp">
                                 view resume
                             </a>
                         </div>
                         <img className="header-image" src="/new-img3.webp" alt="header-image" />
-                        <div className="modal fade" id="resume-image" tabIndex="-1" aria-labelledby="My resume image" aria-hidden="true">
-                            <div className="modal-dialog modal-fullscreen">
-                                <div className="modal-content">
-                                    <div className="modal-body">
-                                        <div className="Myresume">
-                                            <img loading="lazy" src="/my-resume-en.webp" alt="My resume image" />
-                                        </div>
-                                    </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-danger btn-lg btn-block" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             {/* content */}
@@ -368,24 +355,13 @@ export default class Home extends Component {
                                     </Link>
                                 </li>
                                 <li>
-                                    <a data-toggle="modal" data-target="#line-qrcode">
+                                    <Link href="/lineqrcode.webp">
+                                    <a>
                                         <i className="fab fa-line"></i>
                                     </a>
+                                    </Link>
                                 </li>
                             </ul>
-                        </div>
-                        <div className="modal fade" id="line-qrcode" tabIndex="-1" aria-labelledby="Line@benjaminiza QR-CODE" aria-hidden="true">
-                            <div className="modal-dialog modal-fullscreen ">
-                                <div className="modal-content">
-                                    <div className="modal-body">
-                                        <img loading="lazy" src="/lineqrcode.webp" alt="@benjaminiza"/>
-                                        <h2>ID : benjaminiza</h2>
-                                    </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-danger btn-lg btn-block" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
             {/* footer */}

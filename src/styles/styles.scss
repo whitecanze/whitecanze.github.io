@@ -205,27 +205,31 @@
     font-family: 'Poppins';
     user-select: none;
 }
-.line{
-    width:100%;
+
+.line {
+    width: 100%;
     height: 100%;
-    display:grid;
+    display: grid;
     place-items: center;
 }
-.back-btn-arrow{
-    font-size:5rem;
+
+.back-btn-arrow {
+    font-size: 5rem;
     background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
     &:hover {
-        animation:make_drop_shadow .3s forwards;
+        animation: make_drop_shadow .3s forwards;
     }
 }
 
-.Myresume{
-    display:grid;
+
+.Myresume {
+    display: grid;
     place-items: center;
 }
+
 .App {
     text-align: center;
 }
