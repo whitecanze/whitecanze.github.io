@@ -1,0 +1,32 @@
+{
+    "1": {
+        "link": "https://github.com/whitecanze/Attendance-by-face-detection",
+        "title": "Attendance system",
+        "detail": "Attendance system using face detection.",
+        "platform": "Windows,Linux",
+        "editor": "Vs Code",
+        "framework": "Flask",
+        "library": "OpenCV,Dlib",
+        "language": "HTML,CSS,JS,Python"
+    },
+    "2": {
+        "link": "https://github.com/whitecanze/60s",
+        "title": "60 secends",
+        "detail": "Mini game android for learn about base number.",
+        "platform": "Android",
+        "editor": "Android Studio",
+        "framework": "-",
+        "library": "-",
+        "language": "Java"
+    },
+    "3": {
+        "link": "https://github.com/whitecanze/EasyNodejsApiAuthenticationWithJWT",
+        "title": "Authentication API with JWT",
+        "detail": "Basic node.js API authentication with JWT.",
+        "platform": "Windows,Linux",
+        "editor": "Vs Code",
+        "framework": "Express",
+        "library": "-",
+        "language": "Node.js"
+    }
+}
