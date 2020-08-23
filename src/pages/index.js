@@ -356,9 +356,7 @@ export default class Home extends Component {
                                 </li>
                                 <li>
                                     <Link href="/lineqrcode.webp">
-                                    <a>
-                                        <i className="fab fa-line"></i>
-                                    </a>
+                                        <a><i className="fab fa-line"></i></a>
                                     </Link>
                                 </li>
                             </ul>
